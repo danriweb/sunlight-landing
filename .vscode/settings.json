@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "**/.fttemplates/**": "plaintext"
+  },
+  "css.lint.unknownAtRules": "ignore"
+}

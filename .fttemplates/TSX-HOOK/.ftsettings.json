@@ -1,0 +1,5 @@
+{
+  "openFilesWhenDone": ["ui/<FTName>.tsx"],
+  "omitParentDirectory": false,
+  "overwriteExistingFiles": "never"
+}
