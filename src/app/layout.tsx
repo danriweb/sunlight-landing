@@ -21,7 +21,9 @@ export const metadata: Metadata = {
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ru" className="flex-base min-w-80">
-      <body className={`${inter.className} w-full max-w-360`}>
+      <body
+        className={`${inter.className} flex w-full max-w-382.5 flex-col px-4 sm:px-6 md:px-7 lg:px-9 xl:flex xl:px-12.5`}
+      >
         <Header />
         <main className="flex-base">
           <Providers>{children}</Providers>
