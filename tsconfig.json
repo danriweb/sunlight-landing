@@ -19,6 +19,12 @@
       }
     ],
     "paths": {
+      "@styles": ["./src/shared/lib/styles"],
+      "@styles/*": ["./src/shared/lib/styles/*"],
+
+      "@ui/*": ["./src/shared/ui/*"],
+      "@assets/*": ["./src/shared/assets/*"],
+
       "@widgets/*": ["./src/widgets/*"],
       "@shared/*": ["./src/shared/*"],
       "@features/*": ["./src/features/*"],

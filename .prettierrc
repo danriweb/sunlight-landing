@@ -17,14 +17,16 @@
   "importOrderSortSpecifiers": true,
   "importOrder": [
     "<THIRD_PARTY_MODULES>",
-    "^@widgets/(.*)$",
-    "^@shared/(.*)$",
-    "^@features/(.*)$",
-    "^@entities/(.*)$",
-    "^@providers$",
     "^@app/(.*)$",
-    "^@/*$",
-    "^[./]"
+    "^@providers$",
+    "^@widgets/(.*)$",
+    "^@entities/(.*)$",
+    "^@features/(.*)$",
+    "^@shared/(.*)$",
+    "^@(ui|assets)(/.*)?$",
+    "^@(styles)(/.*)?$",
+    "^[./]",
+    "^@/*$"
   ],
 
   "tailwindStylesheet": "./src/app/globals.css"
