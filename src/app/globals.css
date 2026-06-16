@@ -1,11 +1,13 @@
 @import "tailwindcss";
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-  font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
+  }
 }
 
 @utility flex-center {
