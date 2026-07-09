@@ -1,5 +1,6 @@
-import { NavItemProps } from "@ui/nav-item";
 import { Box, Heart, MapPin, ShoppingCart, Triangle, UserRound } from "lucide-react";
+
+import { NavItemProps } from "@ui/nav-item";
 
 export const leftShortcuts: Array<NavItemProps> = [
   {

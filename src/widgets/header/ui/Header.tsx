@@ -1,6 +1,6 @@
-import Supreme from "./Supreme";
-import Shortcuts from "./Shortcuts";
 import CatalogCategory from "./CatalogCategory";
+import Shortcuts from "./Shortcuts";
+import Supreme from "./Supreme";
 
 const Header = () => {
   return (

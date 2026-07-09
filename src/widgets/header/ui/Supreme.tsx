@@ -1,7 +1,9 @@
-import Image from "next/image";
 import { Menu, SearchIcon } from "lucide-react";
-import { mainNavigation } from "../model/data";
+import Image from "next/image";
+
 import { NavItem } from "@ui/nav-item";
+
+import { mainNavigation } from "../model/data";
 
 const Supreme = () => {
   return (
@@ -39,7 +41,7 @@ function Search() {
       {/*SearchInput - Desktop 768px+*/}
       <input
         type="text"
-        id="search"
+        id="search-desktop"
         name="search"
         placeholder="Украшение, бренд, артикул..."
         className="hidden h-full w-full bg-transparent py-1.5 font-[16px] focus:outline-none md:flex md:py-2.5 md:pl-4"
@@ -47,7 +49,7 @@ function Search() {
       {/*SearchInput - Mobile 768px-*/}
       <input
         type="text"
-        id="search"
+        id="search-mobile"
         name="search"
         placeholder="Поиск..."
         className="h-full w-full bg-transparent py-1.5 font-[16px] focus:outline-none md:hidden md:py-2.5 md:pl-4"

@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Jost } from "next/font/google";
+
+import Providers from "@providers";
 
 import Footer from "@widgets/footer";
 import Header from "@widgets/header";
 
-import Providers from "@providers";
-
 import "./globals.css";
 
-const inter = Inter({ subsets: ["cyrillic"] });
+const jost = Jost({ subsets: ["cyrillic"] });
 
 export const metadata: Metadata = {
   title: "SUNLIGHT - Программа лояльности",
@@ -20,12 +20,12 @@ export const metadata: Metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ru" className="flex-base min-w-80">
+    <html lang="ru" className="relative flex-base min-w-80">
       <body
-        className={`${inter.className} flex w-full max-w-382.5 flex-col px-4 sm:px-6 md:px-7 lg:px-9 xl:flex xl:px-12.5`}
+        className={`${jost.className} flex min-h-screen w-full max-w-382.5 flex-col px-4 sm:px-6 md:px-7 lg:px-9 xl:flex xl:px-12.5`}
       >
         <Header />
-        <main className="flex-base">
+        <main className="flex-base flex-1">
           <Providers>{children}</Providers>
         </main>
         <Footer />

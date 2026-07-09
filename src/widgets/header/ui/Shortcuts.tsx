@@ -1,4 +1,5 @@
 import { NavItem } from "@ui/nav-item";
+
 import { leftShortcuts, rightShortcuts } from "../model/data";
 
 const Shortcuts = () => {

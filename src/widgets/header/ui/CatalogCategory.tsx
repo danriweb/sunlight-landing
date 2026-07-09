@@ -1,8 +1,9 @@
-import { NavItem } from "@ui/nav-item";
-import { catalogCategory } from "../model/data";
 import Image from "next/image";
 
 import premiumRing from "@assets/images/premium-ring.png";
+import { NavItem } from "@ui/nav-item";
+
+import { catalogCategory } from "../model/data";
 
 const CatalogCategory = () => {
   return (
