@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { cn } from "@styles";
+import { cn } from "@lib";
 
 type FooterNavItemProps = {
   href?: string;

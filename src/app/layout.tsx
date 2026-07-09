@@ -3,8 +3,8 @@ import { Jost } from "next/font/google";
 
 import Providers from "@providers";
 
-import Footer from "@widgets/footer";
-import Header from "@widgets/header";
+import Footer from "@components/footer/Footer";
+import Header from "@components/header/Header";
 
 import "./globals.css";
 

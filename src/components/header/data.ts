@@ -1,8 +1,8 @@
 import { Box, Heart, MapPin, ShoppingCart, Triangle, UserRound } from "lucide-react";
 
-import { NavItemProps } from "@ui/nav-item";
+import { HeaderNavItemProps } from "./HeaderHavItem";
 
-export const leftShortcuts: Array<NavItemProps> = [
+export const leftShortcuts: Array<HeaderNavItemProps> = [
   {
     color: "white",
     text: "Санкт-Петербург",
@@ -19,7 +19,7 @@ export const leftShortcuts: Array<NavItemProps> = [
   },
 ];
 
-export const rightShortcuts: Array<NavItemProps> = [
+export const rightShortcuts: Array<HeaderNavItemProps> = [
   {
     color: "white",
     text: "Подарочные сертификаты",
@@ -43,7 +43,7 @@ export const rightShortcuts: Array<NavItemProps> = [
   },
 ];
 
-export const mainNavigation: Array<NavItemProps> = [
+export const mainNavigation: Array<HeaderNavItemProps> = [
   {
     text: "Заказы",
     styles: "flex-col gap-0",
@@ -73,7 +73,7 @@ export const mainNavigation: Array<NavItemProps> = [
   },
 ];
 
-export const catalogCategory: Array<NavItemProps> = [
+export const catalogCategory: Array<HeaderNavItemProps> = [
   {
     text: "Кольца",
   },

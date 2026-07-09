@@ -1,9 +1,9 @@
 "use client";
 
 import { ChevronDown } from "lucide-react";
-import { JSX, useState } from "react";
+import { useState } from "react";
 
-import { cn } from "@styles";
+import { cn } from "@lib";
 
 export type AccordionItemType = {
   title: React.ReactNode;

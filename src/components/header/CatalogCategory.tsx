@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 import premiumRing from "@assets/images/premium-ring.png";
-import { NavItem } from "@ui/nav-item";
 
-import { catalogCategory } from "../model/data";
+import HeaderNavItem from "./HeaderHavItem";
+import { catalogCategory } from "./data";
 
 const CatalogCategory = () => {
   return (
@@ -16,7 +16,7 @@ const CatalogCategory = () => {
       {/*CatalogCategory*/}
       <div className="flex-base min-w-0 justify-between!">
         {catalogCategory.map((el, i) => {
-          return <NavItem key={i} {...el} />;
+          return <HeaderNavItem key={i} {...el} />;
         })}
       </div>
     </div>

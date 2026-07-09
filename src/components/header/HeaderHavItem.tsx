@@ -1,9 +1,9 @@
 import { type LucideIcon } from "lucide-react";
 import Link from "next/link";
 
-import { cn } from "@styles";
+import { cn } from "@lib";
 
-export type NavItemProps = {
+export type HeaderNavItemProps = {
   href?: string;
   color?: "black" | "white";
   styles?: string;
@@ -14,7 +14,7 @@ export type NavItemProps = {
   iconLocation?: "left" | "right";
 };
 
-const NavItem = ({
+const HeaderNavItem = ({
   href = "#",
   color = "black",
   styles,
@@ -23,7 +23,7 @@ const NavItem = ({
   iconStyles,
   iconSize,
   iconLocation = "left",
-}: NavItemProps) => {
+}: HeaderNavItemProps) => {
   return (
     <Link
       href={href}
@@ -46,4 +46,4 @@ const NavItem = ({
   );
 };
 
-export default NavItem;
+export default HeaderNavItem;

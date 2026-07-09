@@ -1,9 +1,8 @@
 import { Menu, SearchIcon } from "lucide-react";
 import Image from "next/image";
 
-import { NavItem } from "@ui/nav-item";
-
-import { mainNavigation } from "../model/data";
+import HeaderNavItem from "./HeaderHavItem";
+import { mainNavigation } from "./data";
 
 const Supreme = () => {
   return (
@@ -18,7 +17,7 @@ const Supreme = () => {
       {/*MainNavigation*/}
       <nav className="hidden gap-9 xl:flex-center">
         {mainNavigation.map((el, i) => {
-          return <NavItem key={i} {...el} />;
+          return <HeaderNavItem key={i} {...el} />;
         })}
       </nav>
       <Burger />

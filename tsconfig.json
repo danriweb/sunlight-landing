@@ -19,17 +19,14 @@
       }
     ],
     "paths": {
-      "@styles": ["./src/shared/lib/styles"],
-      "@styles/*": ["./src/shared/lib/styles/*"],
-
       "@ui/*": ["./src/shared/ui/*"],
       "@assets/*": ["./src/shared/assets/*"],
+      "@lib": ["./src/shared/lib"],
+      "@lib/*": ["./src/shared/lib/*"],
 
-      "@widgets/*": ["./src/widgets/*"],
       "@shared/*": ["./src/shared/*"],
-      "@features/*": ["./src/features/*"],
-      "@entities/*": ["./src/layouts/*"],
       "@providers": ["./src/app/providers"],
+      "@components/*": ["./src/components/*"],
       "@app/*": ["./src/app/*"],
       "@/*": ["./src/*"]
     }

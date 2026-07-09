@@ -2,11 +2,10 @@ import { Star } from "lucide-react";
 import Image from "next/image";
 
 import yandexMarket from "@assets/images/yandex-market.png";
+import { cn } from "@lib";
 
-import { cn } from "@styles";
-
-import { aboutCompanyNavItems, mainNavItems, recommendedNavItems, supportNavItems } from "../model/data";
 import FooterNavItem from "./FooterNavItem";
+import { aboutCompanyNavItems, mainNavItems, recommendedNavItems, supportNavItems } from "./data";
 
 export function MainNavigation() {
   return (

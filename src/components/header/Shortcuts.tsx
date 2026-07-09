@@ -1,6 +1,5 @@
-import { NavItem } from "@ui/nav-item";
-
-import { leftShortcuts, rightShortcuts } from "../model/data";
+import HeaderNavItem from "./HeaderHavItem";
+import { leftShortcuts, rightShortcuts } from "./data";
 
 const Shortcuts = () => {
   return (
@@ -9,13 +8,13 @@ const Shortcuts = () => {
         {/*Left Content*/}
         <div className="flex items-center gap-10">
           {leftShortcuts.map((el, i) => (
-            <NavItem key={i} {...el} />
+            <HeaderNavItem key={i} {...el} />
           ))}
         </div>
         {/*Right Content*/}
         <div className="flex items-center gap-10">
           {rightShortcuts.map((el, i) => (
-            <NavItem key={i} {...el} />
+            <HeaderNavItem key={i} {...el} />
           ))}
         </div>
       </div>

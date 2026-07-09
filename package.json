@@ -7,9 +7,8 @@
     "build": "next build",
     "start": "next start -p 3015",
     "format": "prettier --write ./src",
+    "check": "tsc --NoEmit",
     "lint": "eslint ./src",
-    "fsd": "steiger ./src",
-    "full-lint": "npm run lint && npm run fsd",
     "icons": "svgr -d src/shared/ui/icons src/shared/assets/icons"
   },
   "dependencies": {
@@ -28,7 +27,6 @@
     "zustand": "^5.0.14"
   },
   "devDependencies": {
-    "@feature-sliced/steiger-plugin": "^0.6.0",
     "@svgr/cli": "^8.1.0",
     "@tailwindcss/postcss": "^4",
     "@tanstack/eslint-plugin-query": "^5.101.0",
@@ -41,8 +39,6 @@
     "eslint-config-prettier": "^10.1.8",
     "prettier": "3.8.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
-    "steiger": "^0.5.13",
-    "stylelint-config-prettier": "^9.0.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
