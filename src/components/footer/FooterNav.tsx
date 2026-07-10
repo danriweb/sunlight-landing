@@ -29,7 +29,7 @@ type SecondaryMenuProps = {
 function SecondaryMenu({ heading, hideHeading = false, items, styles }: SecondaryMenuProps) {
   return (
     <nav aria-label={heading} className={cn("flex flex-col gap-5", styles)}>
-      <h2 className={cn("text-[15px]/[19px] font-normal md:text-[16px]/[20px]", hideHeading && "hidden")}>{heading}</h2>
+      <h2 className={cn("footer-nav-heading", hideHeading && "hidden")}>{heading}</h2>
       <ul className={cn("flex flex-col gap-4", hideHeading && "opacity-90")}>
         {items.map((title, index) => {
           return <FooterNavItem key={index} title={title} />;

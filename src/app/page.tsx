@@ -1,7 +1,9 @@
+import Hero from "@components/hero/Hero";
+
 export default function Page() {
   return (
-    <>
-      <h1 className="sr-only">Интернет-магазин SUNLIGHT</h1>
-    </>
+    <main className="mt-5 flex-base flex-col">
+      <Hero />
+    </main>
   );
 }

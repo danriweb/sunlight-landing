@@ -5,9 +5,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 
     font-family: "Jost", sans-serif;
   }
+
+  img {
+    pointer-events: none;
+    user-select: none;
+  }
+}
+
+@theme {
+  --color-brand-primary: #ff0000;
 }
 
 @utility flex-center {
@@ -15,4 +25,34 @@
 }
 @utility flex-base {
   @apply flex-center w-full;
+}
+
+@utility hero-bg {
+  background-image: url("@assets/images/background-hero-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@utility section-title {
+  @apply w-full text-[26px]/[32px] font-medium sm:text-[30px]/[36px] lg:text-[36px]/[42px] xl:text-[45px]/[50px];
+}
+
+@utility section-subtitle {
+  @apply w-full text-[16px]/[20px] font-normal sm:text-[17px]/[22px] lg:text-[19px]/[24px] xl:text-[22px]/[28px];
+}
+
+@utility header-nav-item {
+  @apply text-[16px]/[20px] font-normal;
+}
+
+@utility footer-main-nav-item {
+  @apply text-[21px]/[24px] font-medium md:text-[22px]/[25px];
+}
+
+@utility footer-secondary-nav-item {
+  @apply text-[17px]/[19px] font-normal md:text-[18px]/[20px];
+}
+
+@utility footer-nav-heading {
+  @apply text-[15px]/[19px] font-normal md:text-[16px]/[20px];
 }
