@@ -28,7 +28,7 @@ const HeaderNavItem = ({
     <Link
       href={href}
       className={cn(
-        "group header-nav-item flex items-center gap-2 text-center hover:underline active:opacity-70",
+        "group flex items-center gap-2 text-center header-nav-item hover:underline active:opacity-70",
         color === "black" ? "text-black" : "text-white",
         iconLocation === "right" && "flex-row-reverse",
         styles,
