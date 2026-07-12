@@ -18,6 +18,9 @@
 
 @theme {
   --color-brand-primary: #ff0000;
+
+  --breakpoint-screen-440: 440px;
+  --breakpoint-screen-1350: 1350px;
 }
 
 @utility flex-center {
