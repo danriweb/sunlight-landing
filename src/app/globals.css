@@ -46,7 +46,12 @@
 }
 
 @utility section-list-title {
-  @apply text-[clamp(16px,1.52vw,22px)]/[-1.27];
+  font-size: clamp(16px, 1.52vw, 22px);
+  line-height: 1.27;
+}
+
+@utility section-features {
+  @apply text-[18px]/[22px] font-medium sm:text-[20px]/[24px] lg:text-[24px]/[28px] xl:text-[32px]/[38px];
 }
 
 @utility header-nav-item {

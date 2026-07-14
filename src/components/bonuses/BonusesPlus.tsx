@@ -47,7 +47,7 @@ const BonusesPlus = () => {
           className="absolute right-0 bottom-0 z-1 h-auto w-[max(103.41vw,331px)] max-w-none screen-900:w-[min(51.73vw,745px)]"
         />
         {/* Ellipses */}
-        <div className="@container absolute inset-0 overflow-hidden">
+        <div className="@container absolute inset-0 overflow-hidden opacity-50">
           <div className="absolute bottom-[-30.32cqw] left-[-24.89cqw] flex aspect-square w-[105cqw] shrink-0 screen-900:right-auto screen-900:-bottom-[min(14.23vw,205px)] screen-900:-left-[min(11.73vw,169px)] screen-900:w-[min(49.72vw,716px)]">
             <div className="flex w-full rounded-full bg-[#E4E4E4]">
               <div className="m-[15.38%] flex w-full rounded-full bg-[#CDCDCD]"></div>

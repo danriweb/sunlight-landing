@@ -12,7 +12,7 @@ const BonusesMain = () => {
         alt="Купите кольцо за 13 490 рублей и получите 400 бонусов в подарок!"
       />
       {/* Ellipses */}
-      <div className="@container absolute inset-0 overflow-hidden">
+      <div className="@container absolute inset-0 overflow-hidden opacity-50">
         <div className="absolute -right-7 bottom-[-16.4vw] flex aspect-square w-[83.8cqw] shrink-0 screen-440:bottom-[-18.97cqw] screen-440:left-1/2 screen-440:-translate-x-1/2 sm:top-1/2 sm:right-auto sm:bottom-auto sm:left-[min(3.88vw,56px)] sm:w-[48.05cqw] sm:translate-x-0 sm:-translate-y-1/2">
           <div className="flex w-full rounded-full bg-[#E4E4E4]">
             <div className="m-[15.37%] flex w-full rounded-full bg-[#CDCDCD]"></div>

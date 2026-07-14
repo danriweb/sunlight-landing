@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
         </div>
         {/* Features */}
-        <ul className="flex-base flex-col gap-4 pt-6 text-[18px]/[22px] font-medium tracking-[0.4px] text-white min-[390px]:flex-row min-[390px]:gap-6 min-[1404px]:justify-start! sm:gap-8 sm:pt-8 sm:text-[20px]/[24px] lg:gap-10 lg:pt-10 lg:text-[24px]/[28px] xl:gap-10 xl:pt-12 xl:text-[32px]/[38px]">
+        <ul className="flex-base flex-col gap-4 pt-6 section-features tracking-[0.4px] text-white min-[390px]:flex-row min-[390px]:gap-6 min-[1404px]:justify-start! sm:gap-8 sm:pt-8 lg:gap-10 lg:pt-10 xl:gap-10 xl:pt-12">
           <li>1 бонус = 1рубль</li>
           <li>3% бонус-бэк</li>
         </ul>
