@@ -19,8 +19,9 @@
 @theme {
   --color-brand-primary: #ff0000;
 
-  --breakpoint-screen-440: 440px;
-  --breakpoint-screen-1350: 1350px;
+  --breakpoint-screen-440: 27.5rem;
+  --breakpoint-screen-900: 56.25rem;
+  --breakpoint-screen-1350: 84.375rem;
 }
 
 @utility flex-center {
@@ -42,6 +43,10 @@
 
 @utility section-subtitle {
   @apply w-full text-[16px]/[20px] font-normal sm:text-[17px]/[22px] lg:text-[19px]/[24px] xl:text-[22px]/[28px];
+}
+
+@utility section-list-title {
+  @apply text-[clamp(16px,1.52vw,22px)]/[-1.27];
 }
 
 @utility header-nav-item {
