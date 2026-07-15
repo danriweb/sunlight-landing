@@ -65,7 +65,7 @@ function ActionItem({ Icon, title, descriptionOne, descriptionTwo }: ActionItemP
     <li className="flex-base flex-row gap-4 sm:flex-col sm:gap-3">
       <Icon className="h-16 w-16 shrink-0 sm:h-18 sm:w-18" />
       <div className="flex w-full flex-col gap-2 text-left sm:items-center sm:justify-center sm:text-center">
-        <span className="text-[22px]/[26px] font-medium sm:section-list-title">{title}</span>
+        <h2 className="text-[22px]/[26px] font-medium sm:section-list-title">{title}</h2>
         <span className="text-[20px]/[24px] font-normal sm:text-[clamp(14px,1.39vw,20px)]">
           {descriptionOne} <span className="block">{descriptionTwo}</span>
         </span>
