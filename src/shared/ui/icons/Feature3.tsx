@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { SVGProps } from "react";
 
-const SvgFeatureItem3 = (props: SVGProps<SVGSVGElement>) => (
+const SvgFeature3 = (props: SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={72} height={72} fill="none" viewBox="0 0 72 72" {...props}>
     <rect width={72} height={72} fill="#000" rx={36} />
     <path
@@ -27,4 +27,4 @@ const SvgFeatureItem3 = (props: SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-export default SvgFeatureItem3;
+export default SvgFeature3;

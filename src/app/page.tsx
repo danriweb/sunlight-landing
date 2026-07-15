@@ -1,4 +1,5 @@
 import AccrualBonuses from "@components/accrual-bonuses/AccrualBonuses";
+import ActionBonuses from "@components/action-bonuses/ActionBonuses";
 import Bonuses from "@components/bonuses/Bonuses";
 import FeaturesList from "@components/features-list/FeaturesList";
 import Hero from "@components/hero/Hero";
@@ -10,6 +11,7 @@ export default function Page() {
       <FeaturesList />
       <Bonuses />
       <AccrualBonuses />
+      <ActionBonuses />
     </main>
   );
 }

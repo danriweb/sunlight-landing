@@ -1,35 +1,35 @@
-import { FeatureItem1, FeatureItem2, FeatureItem3, FeatureItem4, FeatureItem5, FeatureItem6 } from "@ui/icons";
+import { Feature1, Feature2, Feature3, Feature4, Feature5, Feature6 } from "@ui/icons";
 
 import { FeatureItemProps } from "./FeaturesList";
 
 const featureItems: FeatureItemProps[] = [
   {
-    Icon: FeatureItem1,
+    Icon: Feature1,
     titleOne: "Каждый бонус",
     titleTwo: "равен рублю",
   },
   {
-    Icon: FeatureItem2,
+    Icon: Feature2,
     titleOne: "Получайте бонусы",
     titleTwo: "с каждой покупки",
   },
   {
-    Icon: FeatureItem3,
+    Icon: Feature3,
     titleOne: "Оплачивайте бонусами",
     titleTwo: "любую покупку до 50%",
   },
   {
-    Icon: FeatureItem4,
+    Icon: Feature4,
     titleOne: "Бонусы начисляются",
     titleTwo: "автоматически",
   },
   {
-    Icon: FeatureItem5,
+    Icon: Feature5,
     titleOne: "Начисляем бонусы",
     titleTwo: "за вашу активность",
   },
   {
-    Icon: FeatureItem6,
+    Icon: Feature6,
     titleOne: "Ещё больше бонусов",
     titleTwo: "в праздничные дни",
   },
