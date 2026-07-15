@@ -12,4 +12,7 @@ export { default as Feature3 } from "./Feature3";
 export { default as Feature4 } from "./Feature4";
 export { default as Feature5 } from "./Feature5";
 export { default as Feature6 } from "./Feature6";
+export { default as LinkAccrual } from "./LinkAccrual";
+export { default as LinkPromotions } from "./LinkPromotions";
+export { default as LinkRules } from "./LinkRules";
 export { default as SunMag } from "./SunMag";
