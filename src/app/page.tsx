@@ -3,6 +3,7 @@ import ActionBonuses from "@components/action-bonuses/ActionBonuses";
 import Bonuses from "@components/bonuses/Bonuses";
 import FeaturesList from "@components/features-list/FeaturesList";
 import Hero from "@components/hero/Hero";
+import ProductCarousel from "@components/product-carousel/ProductCarousel";
 import QuickLinks from "@components/quick-links/QuickLinks";
 
 export default function Page() {
@@ -14,6 +15,7 @@ export default function Page() {
       <AccrualBonuses />
       <ActionBonuses />
       <QuickLinks />
+      <ProductCarousel />
     </main>
   );
 }
