@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { BackgroundLogo } from "@ui/icons";
+
 import { FooterAccordion, FooterAccordionItem } from "./FooterAccordion";
 import { AboutCompanyMenu, MainNavigation, RecommendedMenu, SupportMenu, YandexMarketRating } from "./FooterNav";
 import { AppDownloads, MediaPromo, SocialLinks } from "./FooterSocial";
@@ -12,8 +14,11 @@ const items: FooterAccordionItem[] = [
 
 const Footer = () => {
   return (
-    <footer className="mt-[min(27.70vw,108px)] mb-12.5 flex-base pt-12.5 pb-15 sm:mt-[min(7.64vw,110px)]">
-      <div className="flex-base flex-col lg:flex lg:w-full lg:flex-row lg:gap-5">
+    <footer className="mt-[min(27.70vw,108px)] flex-base flex-col sm:mt-[min(7.64vw,110px)]">
+      <div className="mr-[calc(50%-50vw)] ml-[calc(50%-50vw)] flex-center w-screen">
+        <BackgroundLogo className="h-auto max-h-35 w-full" />
+      </div>
+      <div className="mt-10 mb-12.5 flex-base flex-col border-t border-t-[#E4E4E4] pt-12.5 pb-15 lg:flex lg:w-full lg:flex-row lg:gap-5">
         {/*Navigation*/}
         <div className="mb-6 flex w-full flex-col gap-4 lg:mb-0 lg:grid lg:grid-cols-[1fr_1fr_1fr_1fr] lg:grid-rows-[auto_auto] lg:gap-x-5">
           <MainNavigation />

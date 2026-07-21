@@ -9,6 +9,9 @@
 
     font-family: "Jost", sans-serif;
   }
+  html {
+    overflow-x: hidden;
+  }
 
   img {
     pointer-events: none;

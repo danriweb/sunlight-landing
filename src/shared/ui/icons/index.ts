@@ -2,6 +2,7 @@ export { default as ActionBonuses1 } from "./ActionBonuses1";
 export { default as ActionBonuses2 } from "./ActionBonuses2";
 export { default as ActionBonuses3 } from "./ActionBonuses3";
 export { default as ActionBonuses4 } from "./ActionBonuses4";
+export { default as BackgroundLogo } from "./BackgroundLogo";
 export { default as Coin } from "./Coin";
 export { default as Dich } from "./Dich";
 export { default as DownloadAppGallery } from "./DownloadAppGallery";
