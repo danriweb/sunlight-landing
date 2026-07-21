@@ -1,6 +1,15 @@
-import { Box, Heart, MapPin, ShoppingCart, Triangle, UserRound } from "lucide-react";
+import { Box, Heart, LucideIcon, MapPin, ShoppingCart, Triangle, UserRound } from "lucide-react";
 
-import { HeaderNavItemProps } from "./HeaderHavItem";
+export type HeaderNavItemProps = {
+  href?: string;
+  color?: "black" | "white";
+  styles?: string;
+  text: string;
+  Icon?: LucideIcon;
+  iconStyles?: string;
+  iconSize?: number;
+  iconLocation?: "left" | "right";
+};
 
 export const leftShortcuts: Array<HeaderNavItemProps> = [
   {

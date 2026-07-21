@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import premiumRing from "@assets/images/premium-ring.png";
 
-import HeaderNavItem from "./HeaderHavItem";
+import HeaderNavItem from "./HeaderNavItem";
 import { catalogCategory } from "./data";
 
 const CatalogCategory = () => {

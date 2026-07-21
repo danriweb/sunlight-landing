@@ -1,28 +1,18 @@
 import Link from "next/link";
 
-import Accordion from "@ui/accordion/Accordion";
-import { type AccordionItemType } from "@ui/accordion/Accordion";
-
+import { FooterAccordion, FooterAccordionItem } from "./FooterAccordion";
 import { AboutCompanyMenu, MainNavigation, RecommendedMenu, SupportMenu, YandexMarketRating } from "./FooterNav";
 import { AppDownloads, MediaPromo, SocialLinks } from "./FooterSocial";
 
+const items: FooterAccordionItem[] = [
+  { title: "Помощь", content: <SupportMenu hideHeading /> },
+  { title: "Наша компания", content: <AboutCompanyMenu hideHeading /> },
+  { title: "Рекомендуем", content: <RecommendedMenu hideHeading /> },
+];
+
 const Footer = () => {
-  const accordionBlocks: AccordionItemType[] = [
-    {
-      title: "Помощь",
-      content: <SupportMenu hideHeading />,
-    },
-    {
-      title: "Наша компания",
-      content: <AboutCompanyMenu hideHeading />,
-    },
-    {
-      title: "Рекомендуем",
-      content: <RecommendedMenu hideHeading />,
-    },
-  ];
   return (
-    <footer className="mb-12.5 flex-base pt-12.5 pb-15">
+    <footer className="mt-[min(27.70vw,108px)] mb-12.5 flex-base pt-12.5 pb-15 sm:mt-[min(7.64vw,110px)]">
       <div className="flex-base flex-col lg:flex lg:w-full lg:flex-row lg:gap-5">
         {/*Navigation*/}
         <div className="mb-6 flex w-full flex-col gap-4 lg:mb-0 lg:grid lg:grid-cols-[1fr_1fr_1fr_1fr] lg:grid-rows-[auto_auto] lg:gap-x-5">
@@ -33,7 +23,7 @@ const Footer = () => {
           <YandexMarketRating />
         </div>
         {/*Accordion (1024px-)*/}
-        <Accordion items={accordionBlocks} styles="lg:hidden flex" />
+        <FooterAccordion styles="lg:hidden" items={items} />
         {/*Social*/}
         <div className="mt-6 flex w-full flex-col gap-4 lg:mt-0 lg:w-auto lg:justify-between lg:gap-0 lg:self-stretch">
           <SocialLinks />

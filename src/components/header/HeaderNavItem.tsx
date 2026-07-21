@@ -1,18 +1,8 @@
-import { type LucideIcon } from "lucide-react";
 import Link from "next/link";
 
 import { cn } from "@lib";
 
-export type HeaderNavItemProps = {
-  href?: string;
-  color?: "black" | "white";
-  styles?: string;
-  text: string;
-  Icon?: LucideIcon;
-  iconStyles?: string;
-  iconSize?: number;
-  iconLocation?: "left" | "right";
-};
+import { HeaderNavItemProps } from "./data";
 
 const HeaderNavItem = ({
   href = "#",

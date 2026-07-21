@@ -1,6 +1,10 @@
 import { Feature1, Feature2, Feature3, Feature4, Feature5, Feature6 } from "@ui/icons";
 
-import { FeatureItemProps } from "./FeaturesList";
+export type FeatureItemProps = {
+  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+  titleOne: string;
+  titleTwo: string;
+};
 
 const featureItems: FeatureItemProps[] = [
   {

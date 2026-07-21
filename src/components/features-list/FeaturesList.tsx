@@ -1,6 +1,6 @@
 import React from "react";
 
-import featureItems from "./data";
+import featureItems, { FeatureItemProps } from "./data";
 
 const FeaturesList = () => {
   return (
@@ -12,12 +12,6 @@ const FeaturesList = () => {
       </ul>
     </section>
   );
-};
-
-export type FeatureItemProps = {
-  Icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-  titleOne: string;
-  titleTwo: string;
 };
 
 function FeatureItem({ Icon, titleOne, titleTwo }: FeatureItemProps) {

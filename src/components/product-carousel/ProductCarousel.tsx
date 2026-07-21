@@ -62,7 +62,7 @@ const ProductCarousel = () => {
   return (
     <section
       aria-labelledby="product-carousel-title"
-      className="mt-[min(14.43vw,57px)] flex-base flex-col gap-4 pb-100 sm:mt-[min(7.78vw,112px)] sm:gap-[clamp(20px,3.34vw,48px)]"
+      className="mt-[min(14.43vw,57px)] flex-base flex-col gap-4 sm:mt-[min(7.78vw,112px)] sm:gap-[clamp(20px,3.34vw,48px)]"
     >
       {/* Heading */}
       <h2 className="section-title text-left sm:text-center" id="product-carousel-title">
@@ -80,18 +80,18 @@ const ProductCarousel = () => {
           </div>
           {/* Prev/Next Buttons */}
           <div className="hidden gap-4 lg:flex">
-            <div
+            <button
               onClick={() => scroll("left")}
               className="flex aspect-square w-8 cursor-pointer items-center justify-center rounded-full border transition-colors hover:bg-black hover:text-white"
             >
               <ChevronLeft size={16} />
-            </div>
-            <div
+            </button>
+            <button
               onClick={() => scroll("right")}
               className="flex aspect-square w-8 cursor-pointer items-center justify-center rounded-full border transition-colors hover:bg-black hover:text-white"
             >
               <ChevronRight size={16} />
-            </div>
+            </button>
           </div>
         </div>
         {/* Carousel Cards */}

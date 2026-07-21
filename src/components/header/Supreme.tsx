@@ -1,7 +1,7 @@
 import { Menu, SearchIcon } from "lucide-react";
 import Image from "next/image";
 
-import HeaderNavItem from "./HeaderHavItem";
+import HeaderNavItem from "./HeaderNavItem";
 import { mainNavigation } from "./data";
 
 const Supreme = () => {

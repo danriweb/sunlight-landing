@@ -1,4 +1,4 @@
-import HeaderNavItem from "./HeaderHavItem";
+import HeaderNavItem from "./HeaderNavItem";
 import { leftShortcuts, rightShortcuts } from "./data";
 
 const Shortcuts = () => {
